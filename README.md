@@ -575,9 +575,9 @@ But don't forget to do coding problems from above while you learn!
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - Don't worry if you don't understand all the math behind it.
 - You just need to understand how to express the complexity of an algorithm in terms of Big-O.
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ X ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ X ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ X ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](https://archive.org/details/lecture2_202008)
@@ -642,28 +642,28 @@ if you can identify the runtime complexity of different algorithms. It's a super
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [ X ] Implement (I did with tail pointer & without):
+        - [ X ] size() - returns number of data elements in list
+        - [ X ] empty() - bool returns true if empty
+        - [ X ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ X ] push_front(value) - adds an item to the front of the list
+        - [ X ] pop_front() - remove front item and return its value
+        - [ X ] push_back(value) - adds an item at the end
+        - [ X ] pop_back() - removes end item and returns its value
+        - [ X ] front() - get value of front item
+        - [ X ] back() - get value of end item
+        - [ X ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ X ] erase(index) - removes node at given index
+        - [ X ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ X ] reverse() - reverses the list
+        - [ X ] remove_value(value) - removes the first item in the list with this value
+    - [ X ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [ X ] Will not implement. Implementing with array is trivial
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
@@ -716,7 +716,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
     - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-    - [ ] Implement:
+    - [ X ] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
 
@@ -877,8 +877,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
 - [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
+    - [ X ] Mergesort: O(n log n) average and worst case
+    - [ X ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above
 
